@@ -17,7 +17,7 @@ steps:
     projectName: 'abc'
 - task: WhiteSource@20
   inputs:
-    cwd: '/src'
+    cwd: '/bin'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
